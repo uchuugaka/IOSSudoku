@@ -1,5 +1,5 @@
 //
-//  SudokuViewController.h
+//  sudokuPuzzleView.h
 //  Sudoku
 //
 //  Created by Sean Fitzgerald on 2/26/13.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "puzzle.h"
 
-@interface SudokuViewController : UIViewController <UITextFieldDelegate>
+@interface sudokuPuzzleView : UIView
 
 @end
